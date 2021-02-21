@@ -6,9 +6,9 @@ description: >-
 
 # Bennett
 
-## ![](../../.gitbook/assets/element_pyro.png) Bennett
+## ![](https://github.com/ctadhara/guides/tree/a6d20250fdbe513faa0729b13af268a04c883075/.gitbook/assets/element_pyro.png) Bennett
 
-![](../../.gitbook/assets/bennett.png)
+![](https://github.com/ctadhara/guides/tree/a6d20250fdbe513faa0729b13af268a04c883075/.gitbook/assets/bennett.png)
 
 ## **Attacks**
 
@@ -172,7 +172,4 @@ Sword, Claymore, or Polearm-wielding characters inside Fantastic Voyage’s radi
 **Tags:** [Field Buffs](https://library.keqingmains.com/mechanics/combat/field-buffs), [Elemental Gauge Theory](https://library.keqingmains.com/mechanics/combat/elemental-reactions/elemental-gauge-theory)
 
 **Evidence Vault:**
-
-{% page-ref page="../../evidence/characters/pyro/bennett.md" %}
-
 
