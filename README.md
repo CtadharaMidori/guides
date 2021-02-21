@@ -6,9 +6,9 @@ description: >-
 
 # Noelle
 
-## ![](https://github.com/ctadhara/guides/tree/c07297899107b0a09657ebb0f459e28e3f5a9437/.gitbook/assets/element_pyro.png) Noelle
+## ![](.gitbook/assets/element_geo.png) Noelle
 
-![](https://github.com/ctadhara/guides/tree/c07297899107b0a09657ebb0f459e28e3f5a9437/.gitbook/assets/bennett.png)
+![](.gitbook/assets/noelle.png)
 
 ## **Attacks**
 
@@ -48,107 +48,45 @@ If performing a Jump when breastplate expires Noelle can gain enough height to u
 {% endtab %}
 
 {% tab title="Breastplate" %}
-Summons a shield that deals damage in a small radius around Noelle.
+Summon a shield that deals damage in a small radius around Noelle.
 
 * Shield strength scales with Noelle’s current Def.
 * When hitting an enemy there is a chance to heal all characters in the party. 
-* The amount healed scales with Noelle’s current Def
+* The amount healed scales with Noelle’s current Def.
 * The Shield possesses the following properties:
   * 150% DMG Absorption Efficiency against all damage.
   * Can trigger Crystallize when hitting a target with a element applied to them.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Type</th>
-      <th style="text-align:left">Talent 6%</th>
-      <th style="text-align:left">Cooldown</th>
-      <th style="text-align:left">GU</th>
-      <th style="text-align:left">Particles</th>
-      <th style="text-align:left">Frames</th>
-      <th style="text-align:left">Motion Value</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Base DMG</td>
-      <td style="text-align:left">168%</td>
-      <td style="text-align:left">24 sec</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">2</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Healing</td>
-      <td style="text-align:left">
-        <p>29.79%</p>
-        <p>Def + 163</p>
-      </td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">3</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Healing chance</td>
-      <td style="text-align:left">123.2% + 134.4%</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Shield Scaling</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Duration</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-  </tbody>
-</table>
+| Type | Talent 6% | Cooldown | GU | Frames | Motion Value |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Base DMG | 168%Def | 24 sec |  |  |  |
+| Healing | 29.79%Def + 163 |  |  |  |  |
+| Healing chance | 55% |  |  |  |  |
+| Shield Scaling | 224%Def + 1219 |  |  |  |  |
+| Duration | 12 sec |  |  |  |  |
 
-* Max hold duration is x seconds, after which Bennett will use a Level 2 Passion Overload by default. 
-* Having knockback resistance will prevent the explosion from knocking back Bennett after casting a Level 2 Passion Overload.
+* The shield damage from C4 is calculated using Noelle’s current attack at the moment the shield breaks.
 {% endtab %}
 
-{% tab title="Fantastic Voyage" %}
-Bennett performs a jumping attack to create **Inspiration Field**, dealing Pyro DMG.
+{% tab title="Sweeping Time" %}
+Noelle infuses her sword with Geo energy greatly increasing the range of her normal attacks.
 
-**Inspiration Field**
-
-* If the health of a character within the AoE of **Inspiration Field** is less than or equal to 70%, their HP will continuously regenerate based on Bennett’s max HP. 
-* However, if the health of the character is greater than 70%, gain an ATK bonus based on Bennett’s base ATK.
-* Continuously imbues characters within the AoE with Pyro.
+* Converts her normal attacks from Physical to Geo, this infusion cannot be overridden by other sources.
+* Converts Noelle’s current total Def into Atk at a rate decided by talent level.
+* The skill and burst damage values apply to the first two hits in the animation when activating burst.
 
 | Effect | Talent 6% / Data |
 | :--- | :--- |
-| DMG | 325.92% |
-| HP Regeneration | 8.4% Bennett Max HP + 914 |
-| ATK Bonus Ratio | 78.4% Bennett **Base ATK** |
-| Duration | 12s |
+| Elemental burst DMG | 94.08% |
+| Skill DMG | 129.92% |
+| Def conversion | 56% DEF |
+| Duration | 15s |
 | Cooldown | 15s \(non-scaling\) |
 | Energy Cost | 60 |
-| GU | 2U |
-| Imbue | 1U |
 | Frames |  |
 
-* Bennett field does not apply the buffs instantaneously on swap. **Inspiration Field** applies the ATK bonus and healing on the same tick every second. If you swap after the tick occurs, you will need to wait for the next tick to receive the ATK bonus.
-* **Inspiration Field** will apply the ATK Bonus and **C6: Fire Ventures with Me** will also apply the Pyro DMG bonus immediately on cast.
-* The bonus ATK from **Inspiration Field** ONLY scales with Bennett's base attack, including buffs like Noblesse Oblige \(2\).
+* The bonus Def conversion from C6 is additive i.e. it takes the bonus from 56% to 106% at talent level 6.
+* The Def to Atk conversion is snapshotted when you activate burst so any changes to Def after burst is used will not increase Atk.
 {% endtab %}
 {% endtabs %}
 
@@ -156,24 +94,27 @@ Bennett performs a jumping attack to create **Inspiration Field**, dealing Pyro 
 
 {% tabs %}
 {% tab title="Passive" %}
-### It should be safe...
+### Maid’s Knighthood
 
-When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%
+* When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product.
 {% endtab %}
 
 {% tab title="Ascension 2" %}
-### Rekindle
+### Devotion
 
-Decrease passion overload’s cooldown by 20%.
+When Noelle is in the party but not on field, this ability triggers automatically when you active character’s HP falls below 30%.
+
+* Creates a shield for you active character that lasts 20s and absorbs DMG equal to 400% of Noelle’s DEF.
+* This shield  has a 150% DMG absorption effectiveness against all damage.
+* This effect can only occur once every 60s.
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-### Fearnaught
+### Nice and clean
 
-Within the Inspiration Field created by Fantastic Voyage, Passion Overload takes the following effects:
+Every 4 normal attack or Charged Attack hits will decrease the CD of Breastplate by 1s.
 
-* CD is reduced by 50%
-* Bennett will not be launched by the explosion of Passion Overload: Charge Level 2.
+* Hitting multiple opponents with a single attack is only counted as one hit.
 {% endtab %}
 {% endtabs %}
 
@@ -181,57 +122,63 @@ Within the Inspiration Field created by Fantastic Voyage, Passion Overload takes
 
 {% tabs %}
 {% tab title="C1" %}
-### Grand Expectation
+### I Got Your Back
 
-Fantastic Voyage’s ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett’s Base ATK.
+While Sweeping time and Breastplate are both in effect, the chance of Breastplate’s healing effects activating are increased to 100%.
 {% endtab %}
 
 {% tab title="C2" %}
-### Impasse Conqueror
+### Combat Maid
 
-When Bennett’s HP falls below 70%, his Energy Recharge is increased by 30%.
+Decreases the Stamina Consumption of Noelle’s Charged Attacks by 20% and increases her Charged Attack DMG by 15%.
+
+This is a additive %DMG  bonus.
 {% endtab %}
 
 {% tab title="C3" %}
-### Unstoppable Fervor
+### Invunerable Maid
 
-Increases the level of Passion Overload by 3.
+Increases the level of Breastplate by 3.
 {% endtab %}
 
 {% tab title="C4" %}
-### Unexpected Odyssey
+### To be cleaned
 
-Using a Normal Attack when executing the second attack of Passion Overload’s Charge Level 1 allows an additional attack to be performed. This additional attack does 135% of the second attack’s DMG.
-
-| Attack | Talent 6% | Talent 9% | Motion Value |
-| :--- | :--- | :--- | :--- |
-| Passion Overload Level 1 + Normal Attack | 117.6% + 128.8% + 173.88% | 149.6% + 163.2% + 220.3% |  |
+When Breastplate’s duration expires or it is destroyed, it will deal 400% ATK of Geo DMG to surrounding opponents.
 {% endtab %}
 
 {% tab title="C5" %}
 ### True Explorer
 
-Increases the Level of Fantastic Voyage by 3.
+Increases the Level of Sweeing Time by 3.
 {% endtab %}
 
 {% tab title="C6" %}
-### **Fire Ventures with Me**
+### Must Be Spotless
 
-Sword, Claymore, or Polearm-wielding characters inside Fantastic Voyage’s radius gain a 15% Pyro DMG Bonus and their weapons are infused with Pyro.
+Sweeping Time increases Noelle’s ATK by an additional 50% of her DEF.
 
-* Pyro Infusion lasts 2 seconds upon leaving **Inspiration Field**.
-* The Pyro DMG bonus will apply to the Fantastic Voyage damage.
-* Pyro infused autos have 1U worth of Pyro applcation.
+* Every opponent defeated during the skill’s duration adds 1s to the duration, up to 10s
 {% endtab %}
 {% endtabs %}
 
+## Weapons
+
+### Serpent Spine
+
+Stacks will not be lost while under protection from a shield.
+
+### Whiteblind
+
+Due to Sweeping time snapshotting, the full bonus from Def will not be gained unless you have all stacks active when activating burst.
+
 ## **External Links**
 
-* [**Honey Hunter**](https://genshin.honeyhunterworld.com/db/char/bennett/)
-* [**Genshin Impact Fandom**](https://genshin-impact.fandom.com/wiki/Bennett)
-* [**Bennett Mains Discord**](https://discord.gg/qrjeEyejsd)
+* \*\*\*\*[**Honey Hunter**](https://genshin.honeyhunterworld.com/db/char/noelle/)\*\*\*\*
+* \*\*\*\*[**Genshin Impact Fandom**](https://genshin-impact.fandom.com/wiki/Noelle)\*\*\*\*
+* \*\*\*\*[**Noelle Mains Discord**](https://discord.gg/kvft4TKFet)\*\*\*\*
 
-**Tags:** [Field Buffs](https://library.keqingmains.com/mechanics/combat/field-buffs), [Elemental Gauge Theory](https://library.keqingmains.com/mechanics/combat/elemental-reactions/elemental-gauge-theory)
+**Tags:** [Elemental Gauge Theory](https://library.keqingmains.com/mechanics/combat/elemental-reactions/elemental-gauge-theory), Shields
 
 **Evidence Vault:**
 
