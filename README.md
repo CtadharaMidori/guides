@@ -1,63 +1,125 @@
 ---
 description: >-
-  A good-natured adventurer from Mondstadt who's unfortunately extremely
-  unlucky.
+  A maid who faithfully serves the Knights of Favonius. She dreams of joining
+  their ranks someday.
 ---
 
-# Bennett
+# Noelle
 
-## ![](../../.gitbook/assets/element_pyro.png) Bennett
+## ![](https://github.com/ctadhara/guides/tree/c07297899107b0a09657ebb0f459e28e3f5a9437/.gitbook/assets/element_pyro.png) Noelle
 
-![](../../.gitbook/assets/bennett.png)
+![](https://github.com/ctadhara/guides/tree/c07297899107b0a09657ebb0f459e28e3f5a9437/.gitbook/assets/bennett.png)
 
 ## **Attacks**
 
 {% tabs %}
-{% tab title="Strike of Fortune" %}
+{% tab title="Favonious Bladework - Maid" %}
 **Normal Attacks**  
-Bennett performs up to 5 consecutive attacks.
+Perform up to 4 consecutive strikes.
 
 | String | Talent 6% | Frames | Motion Value |
 | :--- | :--- | :--- | :--- |
-| 1-Hit | 64.75% |  |  |
-| 2-Hit | 62.13% |  |  |
-| 3-Hit | 79.38% |  |  |
-| 4-Hit | 86.75% |  |  |
-| 5-Hit | 104.5% |  |  |
+| 1-Hit | 115% |  |  |
+| 2-Hit | 106.63% |  |  |
+| 3-Hit | 125.38% |  |  |
+| 4-Hit | 164.88% |  |  |
+
+Optimal damage is a 4-hit cancel when hitting all targets or 3-hit cancel when the fourth hit won't hit all enemies.
 
 **Charged Attack**  
-Consumes 20 stamina to unleash 2 consecutive strikes.
+Noelle consumes 40 stamina a second to keep spinning.       **** At the end, perform a more powerful slash.
 
 | String | Talent 6% | Frames | Motion Value |
 | :--- | :--- | :--- | :--- |
-| N1C | 234.25 |  |  |
+| Spin | 73.75% |  |  |
+| Final hit | 131.5% |  |  |
 
-Enemies struck by Bennett's charged attack will be staggered or launched.
+Enemies struck by Noelle's charged attack will be staggered or launched.
 
 **Plunge**
 
 | Damage Type | Talent 6% |
 | :--- | :--- |
-| Plunge Impact | 92.93% |
-| Low Plunge DMG | 185.81% |
-| High Plunge DMG | 232.09% |
+| Plunge Impact | 108.41% |
+| Low Plunge DMG | 216.78% |
+| High Plunge DMG | 270.77% |
+
+If performing a Jump when breastplate expires Noelle can gain enough height to use a plunge attack.
 {% endtab %}
 
-{% tab title="Passion Overload" %}
-**Press**  
-Bennett strikes once, dealing Pyro DMG.
+{% tab title="Breastplate" %}
+Summons a shield that deals damage in a small radius around Noelle.
 
-**Hold \(Short\)**
+* Shield strength scales with Noelle’s current Def.
+* When hitting an enemy there is a chance to heal all characters in the party. 
+* The amount healed scales with Noelle’s current Def
+* The Shield possesses the following properties:
+  * 150% DMG Absorption Efficiency against all damage.
+  * Can trigger Crystallize when hitting a target with a element applied to them.
 
-* Level 1: Charges up to strike twice dealing Pyro DMG and launching enemies.
-* Level 2: Charges up to strike two times dealing Pyro DMG, with the last attack triggering an explosion that knocks away Bennett and the enemy.
-
-| Type | Talent 6% | Cooldown | GU | Particles | Frames | Motion Value |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| E Press | 192.64% | 5s | 2U | 2 |  |  |
-| Level 1 | 117.6% + 128.8% | 7.5s | 2 x 1U | 3 |  |  |
-| Level 2 | 123.2% + 134.4% | 10s | 2 x 1U | 3 |  |  |
-| Explosion |  |  | 1U |  |  |  |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Type</th>
+      <th style="text-align:left">Talent 6%</th>
+      <th style="text-align:left">Cooldown</th>
+      <th style="text-align:left">GU</th>
+      <th style="text-align:left">Particles</th>
+      <th style="text-align:left">Frames</th>
+      <th style="text-align:left">Motion Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Base DMG</td>
+      <td style="text-align:left">168%</td>
+      <td style="text-align:left">24 sec</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">2</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Healing</td>
+      <td style="text-align:left">
+        <p>29.79%</p>
+        <p>Def + 163</p>
+      </td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">3</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Healing chance</td>
+      <td style="text-align:left">123.2% + 134.4%</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Shield Scaling</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Duration</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>
 
 * Max hold duration is x seconds, after which Bennett will use a Level 2 Passion Overload by default. 
 * Having knockback resistance will prevent the explosion from knocking back Bennett after casting a Level 2 Passion Overload.
@@ -172,6 +234,4 @@ Sword, Claymore, or Polearm-wielding characters inside Fantastic Voyage’s radi
 **Tags:** [Field Buffs](https://library.keqingmains.com/mechanics/combat/field-buffs), [Elemental Gauge Theory](https://library.keqingmains.com/mechanics/combat/elemental-reactions/elemental-gauge-theory)
 
 **Evidence Vault:**
-
-{% page-ref page="../../evidence/characters/pyro/bennett.md" %}
 

@@ -1,5 +1,5 @@
 # Table of contents
 
-* [guides](README.md)
+* [Noelle](README.md)
 * [Noelle](noelle.md)
 
