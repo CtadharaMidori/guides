@@ -84,10 +84,11 @@ Klee summons Sparks 'n' Splash in 5 waves over 10 seconds with 4 damage instance
 | :--- | :--- |
 | DMG | 59.70% |
 | Hits| 20 |
+| GU | 1A |
 | Duration | 10s |
 | Cooldown | 15s |
 | Energy Cost | 60 |
-| GU | 1A |
+
 
 {% endtab %}
 {% endtabs %}
