@@ -149,6 +149,7 @@ If Klee leaves the field during the duration of Sparks 'n' Splash, her departure
 ### Nova Burst
 
 Increases the Level of Sparks 'n' Splash by 3.
+{% endtab %}
 
 {% tab title="C6" %}
 ### Blazing Delight
@@ -156,6 +157,7 @@ Increases the Level of Sparks 'n' Splash by 3.
 While under the effects of Sparks 'n' Splash, other members of the party will continuously regenerate Energy.
 
 When Sparks 'n' Splash is used, all party members will gain a 10% Pyro DMG Bonus for 25s.
+{% endtab %}
 {% endtabs %}
 
 ## **External Links**
