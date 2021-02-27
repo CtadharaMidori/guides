@@ -1,69 +1,62 @@
-# Klee
-
 ---
 description: >-
   An explosives expert and a regular at the Knights of Favonius' confinement room. Also known as Fleeing Sunlight.
 ---
 
-# Klee
+# Jean
 
-## ![](../../.gitbook/assets/element_pyro.png) Klee
+## ![](../../.gitbook/assets/element_anemo.png) Klee
 
-![](../../.gitbook/assets/klee.png)
+![](../../.gitbook/assets/jean.png)
 
 ## **Base Stats**
 
-| Lv | Base HP | Base ATK | Base DEF | Pyro DMG % |
+|Lv |Base HP|Base ATK|Base DEF|Healing Bonus%|
 | :--- | :--- | :--- | :--- | :--- |
-| 60 | 6673 | 202 | 399 | 14.40 |
-| 60+ | 7161 | 216 | 428 | 14.40 |
-| 70 | 7870 | 238 | 470 | 14.40 |
-| 70+ | 8358 | 253 | 500 | 21.60 |
-| 80 | 9076 | 274 | 542 | 21.60 |
-| 80+ | 9563 | 289 | 572 | 28.80 |
-| 90 | 10287 | 311 | 615 | 28.80 |
+|60 |9533   |155     |499     |11.10         |
+|60+|10230  |166     |535     |11.10         |
+|70 |11243  |183     |588     |11.10         |
+|70+|11940  |194     |624     |16.60         |
+|80 |12965  |211     |678     |16.60         |
+|80+|13662  |222     |715     |22.20         |
+|90 |14695  |239     |769     |22.20         |
 
 ## **Attacks**
 
 {% tabs %}
-{% tab title="Kaboom!" %}
+{% tab title="Favonius Bladework" %}
 **Normal Attacks**  
-Klee performs up to 3 explosive attacks dealing Pyro DMG.
-* Klees's attacks have the blunt attribute allowing them to break shields like claymores.
-
+Jean performs up to 5 consecutive attacks.
 
 | String | Talent 6% | Frames | Motion Value |
 | :--- | :--- | :--- | :--- |
-| 1-Hit | 101.02% |  |  |
-| 2-Hit | 87.36% |  |  |
-| 3-Hit | 125.89% |  |  |
-| GU | 1A |  |  |
+| 1-Hit | 70.25% |  |  |
+| 2-Hit | 66.25% |  |  |
+| 3-Hit | 87.63% |  |  |
+| 4-Hit | 95.75% |  |  |
+| 5-Hit | 115.13% |  |  |
 
 **Charged Attack**  
-Consumes 50 stamina to deal AoE Pyro DMG.
+Consumes 20 stamina to strike upwards and launch light enemies that will then fall down slowly.
 
 | String | Talent 6% | Frames | Motion Value |
 | :--- | :--- | :--- | :--- |
-| N1C | 220.30% |  |  |
-| GU | 1A |  |  |
-
-* Enemies struck by Klee's charged attack will be staggered or launched.
+| N1C | 235.50 |  |  |
 
 **Plunge**
 
 | Damage Type | Talent 6% |
 | :--- | :--- |
-| Plunge Impact | 82.60% |
-| Low Plunge DMG | 165.17% |
-| High Plunge DMG | 206.30% |
+| Plunge Impact | 92.93% |
+| Low Plunge DMG | 185.81% |
+| High Plunge DMG | 232.09% |
 {% endtab %}
 
-{% tab title="Jumpy Dumpty" %}
-  
-Klee throws an explosive that bounces three times dealing AoE Pyro DMG.
-On the last bounce it splits into 8 mines that explode on contact or after the timer expires.
-* Each mine have their own icd on Pyro application.
-* Jean, Sucrose and Anemo MC can gather the mines with their vaccum effects, Venti cannot do this.
+{% tab title="Gale Blade" %}
+**Press**
+Jean quickly thrusts forward launching light enemies and dealing Anemo DMG
+
+**Hold**
 
 
 | Type | Talent 6% | Cooldown | GU |
