@@ -27,7 +27,7 @@ description: >-
 {% tab title="Kaboom!" %}
 **Normal Attacks**  
 Klee performs up to 3 explosive attacks dealing Pyro DMG.
-* Klees's attacks have the blunt attribute allowing them to break shields like claymores.
+* Klees's normal and charged attacks have the blunt attribute allowing them to break shields like claymores.
 
 
 | String | Talent 6% | Frames | Motion Value |
