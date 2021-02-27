@@ -124,6 +124,7 @@ When Klee's Charged Attack results in a CRIT, all party members gain 2 Elemental
 ### Chained Reactions
 
 Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of Sparks 'n' Splash's DMG.
+* This is affected by elemental burst DMG % like the noblesse set.
 {% endtab %}
 
 {% tab title="C2" %}
