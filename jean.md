@@ -6,9 +6,10 @@ description: >-
 
 # Jean
 
-## ![](https://github.com/ctadhara/guides/tree/6d3a68867f5c63cf44582b96a8c2caf8e7c8bd4f/.gitbook/assets/element_anemo.png) Jean
+## ![](../../.gitbook/assets/element_anemo.png) Jean
 
-![](https://github.com/ctadhara/guides/tree/6d3a68867f5c63cf44582b96a8c2caf8e7c8bd4f/.gitbook/assets/jean.png)
+![](../../.gitbook/assets/jean.png)
+
 
 ## **Base Stats**
 
