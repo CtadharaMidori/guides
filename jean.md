@@ -6,10 +6,9 @@ description: >-
 
 # Jean
 
-## ![](../../.gitbook/assets/element_anemo.png) Jean
+## ![](https://github.com/ctadhara/guides/tree/3b8519dc804abf26b954f3a0cc006b1fa37a1e52/.gitbook/assets/element_anemo.png) Jean
 
-![](../../.gitbook/assets/jean.png)
-
+![](https://github.com/ctadhara/guides/tree/3b8519dc804abf26b954f3a0cc006b1fa37a1e52/.gitbook/assets/jean.png)
 
 ## **Base Stats**
 
@@ -49,8 +48,6 @@ Consumes 20 stamina to strike upwards and knocks up light enemies that will then
 | N1C | 305.75% | 87 | 206.1%/s |
 | N3D | 224.13% | 86 | 156.3%/s |
 | N3C | 459.63% | 139 | 198.4%/s |
-
-
 
 **Plunge**
 
