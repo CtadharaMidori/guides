@@ -40,7 +40,7 @@ Jean performs up to 5 consecutive attacks.
 **Charged Attack**  
 Consumes 20 stamina to strike upwards and knocks up light enemies that will then fall down slowly.
 
-* Se Gale Blade for fall damage techniques.
+* If Gale Blade (E) is held while looking down on falling enemies, they can take fall damage before being launched up again for a second instance of fall damage.
 
 | String | Talent 6% | Frames | Motion Value |
 | :--- | :--- | :--- | :--- |
@@ -60,6 +60,9 @@ Consumes 20 stamina to strike upwards and knocks up light enemies that will then
 
 {% tab title="Gale Blade" %}
 **Press** Jean quickly thrusts forward knocking light enemies away and dealing Anemo DMG.
+
+* Enemies launched by Gale Blade can incur fall damage against the ground or walls.
+* Fall damage is based on a percentage of enemy health making it very useful against enemies with high health and low interruption resistance.
 
 **Hold** Creates a vaccum that lifts enemies and moves them towards the blade.
 
