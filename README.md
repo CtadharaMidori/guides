@@ -1,184 +1,72 @@
----
-description: >-
-  A maid who faithfully serves the Knights of Favonius. She dreams of joining
-  their ranks someday.
----
+#Jean
 
-# Noelle
+## Does Jean’s C4 Anemo Res Reduction still apply vertically if her burst misses mobs on Venti’s Q? (Special#1775)
 
-## ![](.gitbook/assets/element_geo.png) Noelle
+Added 11/24/2020
 
-![](.gitbook/assets/noelle.png)
+Theory and Findings
 
-## **Attacks**
+Does Jean's C4 Anemo res reduction still apply vertically if her burst misses mobs on Venti's Q
 
-{% tabs %}
-{% tab title="Favonious Bladework - Maid" %}
-**Normal Attacks**  
-Perform up to 4 consecutive strikes.
+Significance
 
-| String | Talent 6% | Frames | Motion Value |
-| :--- | :--- | :--- | :--- |
-| 1-Hit | 115% |  |  |
-| 2-Hit | 106.63% |  |  |
-| 3-Hit | 125.38% |  |  |
-| 4-Hit | 164.88% |  |  |
+Jean's burst damage reach has a vertical limit but the effects of it can reach vertically further. Potential combination for Xiao midair strikes.
 
-Optimal damage is a 4-hit cancel when hitting all targets or 3-hit cancel when the fourth hit won't hit all enemies.
+Evidence
 
-**Charged Attack**  
-Noelle consumes 40 stamina a second to keep spinning.       **** At the end, perform a more powerful slash.
+https://youtu.be/3deF3geFYdE 
 
-| String | Talent 6% | Frames | Motion Value |
-| :--- | :--- | :--- | :--- |
-| Spin | 73.75% |  |  |
-| Final hit | 131.5% |  |  |
+## Jean E Hold level Difference (Michael/mSoo#1561)
 
-Enemies struck by Noelle's charged attack will be staggered or launched.
+Tested this w/ Jean today lvl by lvl. Seems to be 20 lvl diff requirement (not the 25 stated in the library). I don't have/know how to record so I just took screenshots instead; I hope this is enough.
 
-**Plunge**
+Evidence
 
-| Damage Type | Talent 6% |
-| :--- | :--- |
-| Plunge Impact | 108.41% |
-| Low Plunge DMG | 216.78% |
-| High Plunge DMG | 270.77% |
+Lvl 74 Jean vs lvl 95 Hillichurl = No lift
+https://cdn.discordapp.com/attachments/765191980115689542/794809136244195339/unknown.png 
 
-If performing a Jump when breastplate expires Noelle can gain enough height to use a plunge attack.
-{% endtab %}
+Lvl 75 Jean vs lvl 95 Hillichurl = Lift
+https://cdn.discordapp.com/attachments/765191980115689542/794809333057454091/unknown.png 
 
-{% tab title="Breastplate" %}
-Summon a shield that deals damage in a small radius around Noelle.
+Significance
 
-* Shield strength scales with Noelle’s current Def.
-* When hitting an enemy there is a chance to heal all characters in the party. 
-* The amount healed scales with Noelle’s current Def.
-* The Shield possesses the following properties:
-  * 150% DMG Absorption Efficiency against all damage.
-  * Can trigger Crystallize when hitting a target with a element applied to them.
+Level units to 80 if you want to abuse fall damage on lvl 100 units on 12-3 PS. the video evidence in the library shows lvl 71 and 75 MC vs 95 units too; not 98 which may suggest the ~25 levels
 
-| Type | Talent 6% | Cooldown | GU | Frames | Motion Value |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Base DMG | 168%Def | 24 sec |  |  |  |
-| Healing | 29.79%Def + 163 |  |  |  |  |
-| Healing chance | 55% |  |  |  |  |
-| Shield Scaling | 224%Def + 1219 |  |  |  |  |
-| Duration | 12 sec |  |  |  |  |
+## Is fall damage from Gale Blade based on distance travelled or velocity of the fall? (Wrax#7777)
 
-* The shield damage from C4 is calculated using Noelle’s current attack at the moment the shield breaks.
-{% endtab %}
+Added 12/1/2020
 
-{% tab title="Sweeping Time" %}
-Noelle infuses her sword with Geo energy greatly increasing the range of her normal attacks.
+Theory/Finding/Bug:
 
-* Converts her normal attacks from Physical to Geo, this infusion cannot be overridden by other sources.
-* Converts Noelle’s current total Def into Atk at a rate decided by talent level.
-* The skill and burst damage values apply to the first two hits in the animation when activating burst.
+Jean's Elemental Skill: Gale Blade slam/fall damage is a % based on target max health. These percentage value ranges are based on velocity of the fall rather than height.
 
-| Effect | Talent 6% / Data |
-| :--- | :--- |
-| Elemental burst DMG | 94.08% |
-| Skill DMG | 129.92% |
-| Def conversion | 56% DEF |
-| Duration | 15s |
-| Cooldown | 15s \(non-scaling\) |
-| Energy Cost | 60 |
-| Frames |  |
+Evidence:
 
-* The bonus Def conversion from C6 is additive i.e. it takes the bonus from 56% to 106% at talent level 6.
-* The Def to Atk conversion is snapshotted when you activate burst so any changes to Def after burst is used will not increase Atk.
-{% endtab %}
-{% endtabs %}
+The first damage number is from simply pulling them to the ground after Jean's charged attack.
 
-## **Ascension Passives**
+The second is for when they are flung high up in the air with Jean's skill.
 
-{% tabs %}
-{% tab title="Passive" %}
-### Maid’s Knighthood
+You get relatively similar numbers despite the large difference in height from where the target falls.
 
-* When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product.
-{% endtab %}
+Lvl 69 Hilichurl: 2.2k, 2.1k: https://youtu.be/fG90rk8K6-U
 
-{% tab title="Ascension 2" %}
-### Devotion
+Lvl 70 Fatui Cicin Mage: 13.4k, 12.5k: https://youtu.be/EYO5-SCBH7Q
 
-When Noelle is in the party but not on field, this ability triggers automatically when you active character’s HP falls below 30%.
+In this clip the second time Jean's skill is used the target flew and was thrown at a slight arc rather than straight up which resulted in reduced fall/slam damage.
 
-* Creates a shield for you active character that lasts 20s and absorbs DMG equal to 400% of Noelle’s DEF.
-* This shield  has a 150% DMG absorption effectiveness against all damage.
-* This effect can only occur once every 60s.
-{% endtab %}
+Lvl 90 Fatui Cicin Mage (Thunderfury/soother domain):  39.4k, 22.9k https://youtu.be/v0ShwTzt9Fg
 
-{% tab title="Ascension 4" %}
-### Nice and clean
+I believe that the large gap in damage (2.1k to 39.4k) is sufficient evidence to claim that the slam/fall damage is a percentage based on the target's max health. Damage isn't boosted by superconduct.
 
-Every 4 normal attack or Charged Attack hits will decrease the CD of Breastplate by 1s.
+Evidence that its based on max hp: https://youtu.be/B1a3mCpDGkc
 
-* Hitting multiple opponents with a single attack is only counted as one hit.
-{% endtab %}
-{% endtabs %}
+57k in the beginning when target had full hp, 53k at the end when target had only a sliver of health
 
-## Constellations
+Rough eyeballing based on the hp bar seems to be 20-25% damage: https://cdn.discordapp.com/attachments/550599335524564993/781347956174487582/max_hp_eyeball.png 
 
-{% tabs %}
-{% tab title="C1" %}
-### I Got Your Back
+Significance:
 
-While Sweeping time and Breastplate are both in effect, the chance of Breastplate’s healing effects activating are increased to 100%.
-{% endtab %}
-
-{% tab title="C2" %}
-### Combat Maid
-
-Decreases the Stamina Consumption of Noelle’s Charged Attacks by 20% and increases her Charged Attack DMG by 15%.
-
-This is a additive %DMG  bonus.
-{% endtab %}
-
-{% tab title="C3" %}
-### Invunerable Maid
-
-Increases the level of Breastplate by 3.
-{% endtab %}
-
-{% tab title="C4" %}
-### To be cleaned
-
-When Breastplate’s duration expires or it is destroyed, it will deal 400% ATK of Geo DMG to surrounding opponents.
-{% endtab %}
-
-{% tab title="C5" %}
-### True Explorer
-
-Increases the Level of Sweeing Time by 3.
-{% endtab %}
-
-{% tab title="C6" %}
-### Must Be Spotless
-
-Sweeping Time increases Noelle’s ATK by an additional 50% of her DEF.
-
-* Every opponent defeated during the skill’s duration adds 1s to the duration, up to 10s
-{% endtab %}
-{% endtabs %}
-
-## Weapons
-
-### Serpent Spine
-
-Stacks will not be lost while under protection from a shield.
-
-### Whiteblind
-
-Due to Sweeping time snapshotting, the full bonus from Def will not be gained unless you have all stacks active when activating burst.
-
-## **External Links**
-
-* \*\*\*\*[**Honey Hunter**](https://genshin.honeyhunterworld.com/db/char/noelle/)\*\*\*\*
-* \*\*\*\*[**Genshin Impact Fandom**](https://genshin-impact.fandom.com/wiki/Noelle)\*\*\*\*
-* \*\*\*\*[**Noelle Mains Discord**](https://discord.gg/kvft4TKFet)\*\*\*\*
-
-**Tags:** [Elemental Gauge Theory](https://library.keqingmains.com/mechanics/combat/elemental-reactions/elemental-gauge-theory), Shields
-
-**Evidence Vault:**
+* Pulling target to the ground using Gale Blade rather than launching them results in similar damage applied faster.
+* If choosing to launch target for cc reasons then make sure that its sent straight up so that it doesn't arc in order to maintain high damage.
+* Also first damage based on target max hp in game?
 
