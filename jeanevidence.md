@@ -1,26 +1,28 @@
-#Jean
+# Jean
 
-## Does Jean’s C4 Anemo Res Reduction still apply vertically if her burst misses mobs on Venti’s Q? (Special#1775)
+## Does Jean’s C4 Anemo Res Reduction still apply vertically if her burst misses mobs on Venti’s Q? 
+(Special#1775)
 
 Added 11/24/2020
 
-Theory and Findings
+### Theory and Findings:
 
 Does Jean's C4 Anemo res reduction still apply vertically if her burst misses mobs on Venti's Q
 
-Significance
+### Significance:
 
 Jean's burst damage reach has a vertical limit but the effects of it can reach vertically further. Potential combination for Xiao midair strikes.
 
-Evidence
+### Evidence:
 
 https://youtu.be/3deF3geFYdE 
 
-## Jean E Hold level Difference (Michael/mSoo#1561)
+## Jean E Hold level Difference 
+(Michael/mSoo#1561)
 
 Tested this w/ Jean today lvl by lvl. Seems to be 20 lvl diff requirement (not the 25 stated in the library). I don't have/know how to record so I just took screenshots instead; I hope this is enough.
 
-Evidence
+### Evidence:
 
 Lvl 74 Jean vs lvl 95 Hillichurl = No lift
 https://cdn.discordapp.com/attachments/765191980115689542/794809136244195339/unknown.png 
@@ -28,7 +30,7 @@ https://cdn.discordapp.com/attachments/765191980115689542/794809136244195339/unk
 Lvl 75 Jean vs lvl 95 Hillichurl = Lift
 https://cdn.discordapp.com/attachments/765191980115689542/794809333057454091/unknown.png 
 
-Significance
+### Significance:
 
 Level units to 80 if you want to abuse fall damage on lvl 100 units on 12-3 PS. the video evidence in the library shows lvl 71 and 75 MC vs 95 units too; not 98 which may suggest the ~25 levels
 
@@ -36,11 +38,11 @@ Level units to 80 if you want to abuse fall damage on lvl 100 units on 12-3 PS. 
 
 Added 12/1/2020
 
-Theory/Finding/Bug:
+### Theory/Finding/Bug:
 
 Jean's Elemental Skill: Gale Blade slam/fall damage is a % based on target max health. These percentage value ranges are based on velocity of the fall rather than height.
 
-Evidence:
+### Evidence:
 
 The first damage number is from simply pulling them to the ground after Jean's charged attack.
 
@@ -64,7 +66,7 @@ Evidence that its based on max hp: https://youtu.be/B1a3mCpDGkc
 
 Rough eyeballing based on the hp bar seems to be 20-25% damage: https://cdn.discordapp.com/attachments/550599335524564993/781347956174487582/max_hp_eyeball.png 
 
-Significance:
+### Significance:
 
 * Pulling target to the ground using Gale Blade rather than launching them results in similar damage applied faster.
 * If choosing to launch target for cc reasons then make sure that its sent straight up so that it doesn't arc in order to maintain high damage.
