@@ -1,8 +1,8 @@
 # Jean
 
-## Does Jean’s C4 Anemo Res Reduction still apply vertically if her burst misses mobs on Venti’s Q? 
-(Special#1775)
+## Does Jean’s C4 Anemo Res Reduction still apply vertically if her burst misses mobs on Venti’s Q?
 
+By:(Special#1775)
 Added 11/24/2020
 
 **Theory and Findings:**
@@ -17,8 +17,9 @@ Jean's burst damage reach has a vertical limit but the effects of it can reach v
 
 https://youtu.be/3deF3geFYdE 
 
-## Jean E Hold level Difference 
-(Michael/mSoo#1561)
+## Jean E Hold level Difference
+
+By:(Michael/mSoo#1561)
 
 Tested this w/ Jean today lvl by lvl. Seems to be 20 lvl diff requirement (not the 25 stated in the library). I don't have/know how to record so I just took screenshots instead; I hope this is enough.
 
@@ -34,8 +35,9 @@ https://cdn.discordapp.com/attachments/765191980115689542/794809333057454091/unk
 
 Level units to 80 if you want to abuse fall damage on lvl 100 units on 12-3 PS. the video evidence in the library shows lvl 71 and 75 MC vs 95 units too; not 98 which may suggest the ~25 levels
 
-## Is fall damage from Gale Blade based on distance travelled or velocity of the fall? (Wrax#7777)
+## Is fall damage from Gale Blade based on distance travelled or velocity of the fall?
 
+By:(Wrax#7777)
 Added 12/1/2020
 
 **Theory/Finding/Bug:**
