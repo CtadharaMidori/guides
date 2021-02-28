@@ -39,7 +39,7 @@ Jean performs up to 5 consecutive attacks.
 | 5-Hit | 115.13% | 159 | 164.1%/s |
 
 **Charged Attack**  
-Consumes 20 stamina to strike upwards and knock up light enemies that will then fall down slowly.
+Consumes 20 stamina to strike upwards and knocks up light enemies that will then fall down slowly.
 
 * Se Gale Blade for fall damage techniques.
 
@@ -83,9 +83,9 @@ Consumes 20 stamina to strike upwards and knock up light enemies that will then 
 {% tab title="Dandelion Breeze" %}
 Jean creates **Dandelion field** dealing AoE Anemo DMG and heals the party instantly.
 
-* Creation also launches light enemies.
+* Cast also knocks away light enemies.
 * The **Dandelion field** deals Anemo damage to enemies crossing the border of the field.
-* Heals and applies Anemo continuously to the active character inside the field cleansing non Anemo debuffs.
+* Heals and applies Anemo continuously to the active character inside the field cleansing debuffs.
 
 | Effect | Talent 6% / Data |
 | :--- | :--- |
