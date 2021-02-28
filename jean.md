@@ -38,7 +38,7 @@ Jean performs up to 5 consecutive attacks.
 | 5-Hit | 115.13% | 159 | 164.1%/s |
 
 **Charged Attack**  
-Consumes 20 stamina to strike upwards and knocks up light enemies that will then fall down slowly.
+Consumes 20 stamina to strike upwards and knocks up enemies that will then fall down slowly.
 
 * If Gale Blade (E) is held while looking down on falling enemies, they can take fall damage before being launched up again for a second instance of fall damage.
 
