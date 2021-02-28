@@ -5,7 +5,7 @@
 
 Added 11/24/2020
 
-### Theory and Findings:
+#### Theory and Findings:
 
 Does Jean's C4 Anemo res reduction still apply vertically if her burst misses mobs on Venti's Q
 
