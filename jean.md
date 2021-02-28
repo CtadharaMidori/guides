@@ -5,7 +5,7 @@ description: >-
 
 # Jean
 
-## ![](../../.gitbook/assets/element_anemo.png) Klee
+## ![](../../.gitbook/assets/element_anemo.png) Jean
 
 ![](../../.gitbook/assets/jean.png)
 
