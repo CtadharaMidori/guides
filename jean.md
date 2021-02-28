@@ -1,6 +1,6 @@
 ---
 description: >-
-  An explosives expert and a regular at the Knights of Favonius' confinement room. Also known as Fleeing Sunlight.
+  The righteous and rigorous Dandelion Knight, and Acting Grand Master of the Knights of Favonius of Mondstadt.
 ---
 
 # Jean
@@ -30,18 +30,21 @@ Jean performs up to 5 consecutive attacks.
 
 | String | Talent 6% | Frames | Motion Value |
 | :--- | :--- | :--- | :--- |
-| 1-Hit | 70.25% |  |  |
-| 2-Hit | 66.25% |  |  |
-| 3-Hit | 87.63% |  |  |
-| 4-Hit | 95.75% |  |  |
-| 5-Hit | 115.13% |  |  |
+| 1-Hit | 70.25% | 14 |  |
+| 2-Hit | 66.25% | 37 |  |
+| 3-Hit | 87.63% | 66 |  |
+| 4-Hit | 95.75% | 124 |  |
+| 5-Hit | 115.13% | 159 |  |
 
 **Charged Attack**  
-Consumes 20 stamina to strike upwards and launch light enemies that will then fall down slowly.
+Consumes 20 stamina to strike upwards and knock up light enemies that will then fall down slowly.
 
 | String | Talent 6% | Frames | Motion Value |
 | :--- | :--- | :--- | :--- |
-| N1C | 235.50 |  |  |
+| CA | 235.50 | 88 |  |
+
+Enemies successfully knocked into the air can be thrown away with Gale Blade to inflict fall damage.
+Holding the enemy and aiming towards the floor can cause more instances of fall damage when executed correctly.
 
 **Plunge**
 
@@ -53,36 +56,43 @@ Consumes 20 stamina to strike upwards and launch light enemies that will then fa
 {% endtab %}
 
 {% tab title="Gale Blade" %}
+
 **Press**
 Jean quickly thrusts forward launching light enemies and dealing Anemo DMG
 
 **Hold**
+Creates a vaccum that lifts enemies and moves them towards the blade.
+* Costs 20 stamina per second to hold.
+* You cannot move Jean but you can move the camera to change where you are aiming with the blade.
+* Jean needs to be atleast 20 levels below the enemy to be able to lift them.
 
-
-| Type | Talent 6% | Cooldown | GU |
-| :--- | :--- | :--- | :--- | 
-| Bounce DMG | 133.28% | 20s | 2B |
-| Mine DMG | 45.92% |  | 1A | 
-| Mine Duration | 15s |  |  |
-| Particles | 20s |  |  |
-| Cooldown | 20s |  |  |
+| Type | Talent 6% |
+| :--- | :--- |
+| Skill DMG | 408.80% | 20s |
+| Max duration | 5 |
+| Particles | 2~3 (1:1) |
+| GU |  |
+| Cooldown | 6s |
 
 {% endtab %}
 
-{% tab title="Sparks 'n' Splash" %}
+{% tab title="Dandelion Breeze" %}
 
-Klee summons Sparks 'n' Splash in 5 waves over 10 seconds with 4 damage instances per wave for a total of 20 hits. 
-* If klee leaves the field with this active no more damage will be dealt even if there is duration left.
-* This snapshots all temporary buffs when cast.
+Jean creates **Dandelion field** dealing AoE Anemo DMG and heals the party instantly.
+*  Creation also launches light enemies.
+*  The **Dandelion field** deals Anemo damage to enemies crossing the border.
+*  Heals and applies Anemo continously to the active character inside the field cleansing non Anemo debuffs.
 
 | Effect | Talent 6% / Data |
 | :--- | :--- |
-| DMG | 59.70% |
-| Hits| 20 |
+| Burst DMG | 594.72% |
+| Border DMG | 109.76% |
+| Burst Healing | ATK 351.68% + 2439 |
+| Continous Healing | ATK 35.17 + 244 |
+| GU |  |
 | Duration | 10s |
-| Cooldown | 15s |
-| Energy Cost | 60 |
-| GU | 1A |
+| Cooldown | 20s |
+| Energy Cost | 80 |
 
 {% endtab %}
 {% endtabs %}
@@ -91,23 +101,21 @@ Klee summons Sparks 'n' Splash in 5 waves over 10 seconds with 4 damage instance
 
 {% tabs %}
 {% tab title="Passive" %}
-### All Of My Treasures!
+### Guiding Breeze
 
-Displays the location of nearby resources unique to Mondstadt on the mini-map. 
+When a Perfect Cooking is achieved on a dish with restorative effects, Jean has a 12% chance to obtain double the product. 
 {% endtab %}
 
 {% tab title="Ascension 2" %}
-### Pounding Surprise
+### Wind Companion
 
-When Jumpy Dumpty and Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark. This Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG. 
+Hits by Jean's Normal Attacks have a 50% chance to regenerate HP equal to 15% of Jean's ATK for all party members.
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-### Sparkling Burst
+### Let the Wind Lead
 
-When Klee's Charged Attack results in a CRIT, all party members gain 2 Elemental Energy.
-
-* This energy is not affected by ER.
+Using Dandelion Breeze will regenerate 20% of its Energy. 
 {% endtab %}
 {% endtabs %}
 
@@ -115,50 +123,51 @@ When Klee's Charged Attack results in a CRIT, all party members gain 2 Elemental
 
 {% tabs %}
 {% tab title="C1" %}
-### Chained Reactions
+### Spiraling Tempest
 
-Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of Sparks 'n' Splash's DMG.
+Increases the pulling speed of Gale Blade after holding for more than 1s, and increases the DMG dealt by 40%.
 {% endtab %}
 
 {% tab title="C2" %}
-### Explosive Frags
+### People's Aegis
 
-Being hit by Jumpy Dumpty's mines decreases opponents' DEF by 23% for 10s.
+When Jean picks up an Elemental Orb/Particle, all party members have their Movement SPD and ATK SPD increased by 15% for 15s.
+* This buff stacks but exact details are not currently tested.
 {% endtab %}
 
 {% tab title="C3" %}
-### Exquisite Compound
+### When the West Wind Arises 
 
-Increases the level of Jumpy Dumpty Overload by 3.
+Increases the level of Dandelion Breeze by 3.
 {% endtab %}
 
 {% tab title="C4" %}
-### Sparkly Explosion
+### Lands of Dandelion
 
-If Klee leaves the field during the duration of Sparks 'n' Splash, her departure triggers an explosion that deals 555% of her ATK as AoE Pyro DMG.
+Within the Field created by Dandelion Breeze, all opponents have their Anemo RES decreased by 40%. 
 {% endtab %}
 
 {% tab title="C5" %}
-### Nova Burst
+### Outbursting Gust
 
-Increases the Level of Sparks 'n' Splash by 3.
+Increases the Level of Gale Blade by 3.
+{% endtab %}
 
 {% tab title="C6" %}
-### Blazing Delight
+### Lion's Fang, Fair Protector of Mondstadt 
 
-While under the effects of Sparks 'n' Splash, other members of the party will continuously regenerate Energy.
-
-When Sparks 'n' Splash is used, all party members will gain a 10% Pyro DMG Bonus for 25s.
+Incoming DMG is decreased by 35% within the Field created by Dandelion Breeze. Upon leaving the Dandelion Field, this effect lasts for 3 attacks or 10s.
+{% endtab %}
 {% endtabs %}
 
 ## **External Links**
 
-* [**Honey Hunter**](https://genshin.honeyhunterworld.com/db/char/klee/)
-* [**Genshin Impact Fandom**](https://genshin-impact.fandom.com/wiki/Klee)
-* [**Klee Mains Discord**](https://discord.gg/NwYDDrfKZU)
+* [**Honey Hunter**](https://genshin.honeyhunterworld.com/db/char/jean/)
+* [**Genshin Impact Fandom**](https://genshin-impact.fandom.com/wiki/Jean)
+* [**Jean Mains Discord**](https://discord.gg/WPX5hTnPfM)
 
-**Tags:** [Elemental Gauge Theory](https://library.keqingmains.com/mechanics/combat/elemental-reactions/elemental-gauge-theory)
+**Tags:** [Elemental Gauge Theory](https://library.keqingmains.com/mechanics/combat/elemental-reactions/elemental-gauge-theory), [Field Buffs](https://library.keqingmains.com/mechanics/combat/field-buffs)
 
 **Evidence Vault:**
 
-{% page-ref page="../../evidence/characters/pyro/klee.md" %}
+{% page-ref page="../../evidence/characters/pyro/jean.md" %}
