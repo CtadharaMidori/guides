@@ -2,7 +2,7 @@
 
 ## Does Jean’s C4 Anemo Res Reduction still apply vertically if her burst misses mobs on Venti’s Q?
 
-By:(Special#1775)
+By:(Special#1775)  
 Added 11/24/2020
 
 **Theory and Findings:**
@@ -37,7 +37,7 @@ Level units to 80 if you want to abuse fall damage on lvl 100 units on 12-3 PS. 
 
 ## Is fall damage from Gale Blade based on distance travelled or velocity of the fall?
 
-By:(Wrax#7777)
+By:(Wrax#7777)  
 Added 12/1/2020
 
 **Theory/Finding/Bug:**
