@@ -1,8 +1,0 @@
----
-description: >-
-  A maid who faithfully serves the Knights of Favonius. She dreams of joining
-  their ranks someday.
----
-
-# Noelle
-
