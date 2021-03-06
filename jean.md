@@ -24,17 +24,17 @@ description: >-
 ## **Attacks**
 
 {% tabs %}
-{% tab title="SSharpshooter" %}
+{% tab title="Sharpshooter" %}
 **Normal Attack**  
 Perform up to 5 consecutive shots with a bow.
 
 | String | Talent 6% | Frames | MV/s |
 | :--- | :--- | :--- | :--- |
-| 1-hit | 52.5% | 15 |  |
-| 2-Hit | 52.5% | 33 |  |
-| 3-Hit | 67.5% | 72 |  |
-| 4-Hit | 68.75% | 113 |  |
-| 5-Hit | 86.25% | 144 |  |
+| 1-hit | 52.5% | 15 | 210.0 |
+| 2-Hit | 52.5% | 33 | 190.9 |
+| 3-Hit | 67.5% | 72 | 143.7 |
+| 4-Hit | 68.75% | 113 | 128.0 |
+| 5-Hit | 86.25% | 144 | 136.4 |
 
 **Aimed Shot**  
 Perform a precise Aimed Shot with increased DMG.  
@@ -86,8 +86,10 @@ Summons **Baron Bunny** that will taunt the enemy and explode after 8 seconds or
 
 Fires off a Shower of arrows, dealing AoE Pyro DMG in a Burst.
 
-* Does 18 hits over 2 seconds dead center 12 hits in a small area and 4 hits that cover the entire marker.
-* Each wave has a separeate icd on Pyro applicaton.
+* Does 18 waves total over 2 seconds in the center of the Aoe.
+* 12 of the waves cover approximately a circle half the size of the marker.
+* 4 waves cover the entire marker.
+* Each wave has a separate icd on Pyro applicaton.
 
 | Effect | Talent 6% |
 | :--- | :--- |
