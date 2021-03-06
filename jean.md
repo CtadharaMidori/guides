@@ -89,7 +89,7 @@ Fires off a Shower of arrows, dealing AoE Pyro DMG in a Burst.
 * Does 18 waves total over 2 seconds in the center of the Aoe.
 * 12 of the waves cover approximately a circle half the size of the marker.
 * 4 waves cover the entire marker.
-* Each wave has a separate icd on Pyro applicaton.
+* Applies 1U worth of pyro 6 times, following [normal ICD rules] (https://library.keqingmains.com/mechanics/combat/elemental-reactions/internal-cooldown-of-elemental-application)
 
 | Effect | Talent 6% |
 | :--- | :--- |
@@ -99,6 +99,7 @@ Fires off a Shower of arrows, dealing AoE Pyro DMG in a Burst.
 | Duration | 2s |
 | CD | 12s |
 | Energy Cost | 40 |
+
 {% endtab %}
 {% endtabs %}
 
@@ -208,6 +209,7 @@ x
 * [**Genshin Impact Fandom**](https://genshin-impact.fandom.com/wiki/Amber)
 
 
-**Tags:** [Elemental Gauge Theory](https://library.keqingmains.com/mechanics/combat/elemental-reactions/elemental-gauge-theory)
+**Tags:** [Elemental Gauge Theory](https://library.keqingmains.com/mechanics/combat/elemental-reactions/elemental-gauge-theory), [ICD](https://library.keqingmains.com/mechanics/combat/elemental-reactions/internal-cooldown-of-elemental-application)
+
 
 **Evidence Vault:**
