@@ -1,99 +1,102 @@
 ---
 description: >-
-  The righteous and rigorous Dandelion Knight, and Acting Grand Master of the Knights of Favonius of Mondstadt.
+  Always energetic and full of life, Amber's the best - albeit only - Outrider of the Knights of Favonius.
 ---
 
-# Jean
+# Amber
 
-## ![](../../.gitbook/assets/element_anemo.png) Jean
+## ![](../../.gitbook/assets/element_pyro.png) Amber
 
-![](../../.gitbook/assets/jean.png)
+![](../../.gitbook/assets/amber.png)
 
 ## **Base Stats**
 
-|Lv |Base HP|Base ATK|Base DEF|Healing Bonus%|
+| Lv | Base HP | Base ATK | Base DEF | Atk% |
 | :--- | :--- | :--- | :--- | :--- |
-|60 |9533   |155     |499     |11.10         |
-|60+|10230  |166     |535     |11.10         |
-|70 |11243  |183     |588     |11.10         |
-|70+|11940  |194     |624     |16.60         |
-|80 |12965  |211     |678     |16.60         |
-|80+|13662  |222     |715     |22.20         |
-|90 |14695  |239     |769     |22.20         |
+| 60 | 6305 | 147 | 396 | 12 |
+| 60+ | 6731 | 157 | 422 | 12 |
+| 70 | 7393 | 172 | 464 | 12 |
+| 70+ | 7818 | 182 | 491 | 18 |
+| 80 | 8481 | 198 | 532 | 18 |
+| 80+ | 8907 | 208 | 559 | 24 |
+| 90 | 9570 | 223 | 601 | 24 |
 
 ## **Attacks**
 
 {% tabs %}
-{% tab title="Favonius Bladework" %}
-**Normal Attacks**  
-Jean performs up to 5 consecutive attacks.
+{% tab title="SSharpshooter" %}
+**Normal Attack**  
+Perform up to 5 consecutive shots with a bow.
 
-| String | Talent 6% | Frames | Motion Value |
+| String | Talent 6% | Frames | MV/s |
 | :--- | :--- | :--- | :--- |
-| 1-Hit | 70.25% | 14 |  |
-| 2-Hit | 66.25% | 37 |  |
-| 3-Hit | 87.63% | 66 |  |
-| 4-Hit | 95.75% | 124 |  |
-| 5-Hit | 115.13% | 159 |  |
+| 1-hit | 52.5% | 15 |  |
+| 2-Hit | 52.5% | 33 |  |
+| 3-Hit | 67.5% | 72 |  |
+| 4-Hit | 68.75% | 113 |  |
+| 5-Hit | 86.25% | 144 |  |
 
-**Charged Attack**  
-Consumes 20 stamina to strike upwards and knock up light enemies that will then fall down slowly.
+**Aimed Shot**  
+Perform a precise Aimed Shot with increased DMG.  
+A fully charged shot will deal Cryo DMG.
 
-| String | Talent 6% | Frames | Motion Value |
+| Type | Talent 6% | Frames | MV/s |
 | :--- | :--- | :--- | :--- |
-| CA | 235.50 | 88 |  |
+| Aimed Shot | 63.75% |  |  |
+| Fully Charged | 173.6% | 94 |  |
+| GU | 2B |  |  |
 
-Enemies successfully knocked into the air can be thrown away with Gale Blade to inflict fall damage.
-Holding the enemy and aiming towards the floor can cause more instances of fall damage when executed correctly.
+**Plunge Attack**  
+Fire a shower of arrows from mid-air before falling striking the ground, dealing AoE DMG.
 
-**Plunge**
-
-| Damage Type | Talent 6% |
-| :--- | :--- |
-| Plunge Impact | 92.93% |
-| Low Plunge DMG | 185.81% |
-| High Plunge DMG | 232.09% |
+| Type | Talent 6% | Frames | MV/s |
+| :--- | :--- | :--- | :--- |
+| Plunge DMG | 82.6% |  |  |
+| Low Plunge DMG | 165.17% |  |  |
+| High Plunge DMG | 206.3% |  |  |
 {% endtab %}
 
-{% tab title="Gale Blade" %}
+{% tab title="Explosive Puppet" %}
+Summons **Baron Bunny** that will taunt the enemy and explode after 8 seconds or being destroyed dealing AoE Pyro DMG.
+
+* The explosion has the blunt attribute that lets it damage shields and shatter frozen enemies like claymores.
+* **Baron Bunny** can be picked up by Anemo units like Jean and Sucrose when they use their elemental skills.
+* The explosion radius is smaller than the animation so take care when aiming it.
+* A percentage of Amber's HP is used to determine how much damage **Baron Bunny** can take before exploding.
 
 **Press**
-Jean quickly thrusts forward launching light enemies and dealing Anemo DMG
+
+* Throws **Baron Bunny** infront of Amber.
 
 **Hold**
-Creates a vaccum that lifts enemies and moves them towards the blade.
-* Costs 20 stamina per second to hold.
-* You cannot move Jean but you can move the camera to change where you are aiming with the blade.
-* Jean needs to be atleast 20 levels below the enemy to be able to lift them.
 
-| Type | Talent 6% |
+* Will let you aim and choose where to throw **Baron Bunny**.
+
+| Effect | Talent 6% |
 | :--- | :--- |
-| Skill DMG | 408.80% | 20s |
-| Max duration | 5 |
-| Particles | 2~3 (1:1) |
-| GU |  |
-| Cooldown | 6s |
-
+| Explosion DMG | 172.48% |
+| Inherited HP | 57.9% |
+| Duration | 8s |
+| Cooldown | 15s |
+| Particles | 3~4 (1:9) |
+| GU | 2B |
 {% endtab %}
 
-{% tab title="Dandelion Breeze" %}
+{% tab title="Fiery Rain" %}
 
-Jean creates **Dandelion field** dealing AoE Anemo DMG and heals the party instantly.
-*  Creation also launches light enemies.
-*  The **Dandelion field** deals Anemo damage to enemies crossing the border.
-*  Heals and applies Anemo continously to the active character inside the field cleansing non Anemo debuffs.
+Fires off a Shower of arrows, dealing AoE Pyro DMG in a Burst.
 
-| Effect | Talent 6% / Data |
+* Does 18 hits over 2 seconds dead center 12 hits in a small area and 4 hits that cover the entire marker.
+* Each wave has a separeate icd on Pyro applicaton.
+
+| Effect | Talent 6% |
 | :--- | :--- |
-| Burst DMG | 594.72% |
-| Border DMG | 109.76% |
-| Burst Healing | ATK 351.68% + 2439 |
-| Continous Healing | ATK 35.17 + 244 |
-| GU |  |
-| Duration | 10s |
-| Cooldown | 20s |
-| Energy Cost | 80 |
-
+| Wave DMG | 39.31% |
+| Total DMG | 707.62% |
+| GU | 1A |
+| Duration | 2s |
+| CD | 12s |
+| Energy Cost | 40 |
 {% endtab %}
 {% endtabs %}
 
@@ -101,21 +104,22 @@ Jean creates **Dandelion field** dealing AoE Anemo DMG and heals the party insta
 
 {% tabs %}
 {% tab title="Passive" %}
-### Guiding Breeze
+## Gliding Champion
 
-When a Perfect Cooking is achieved on a dish with restorative effects, Jean has a 12% chance to obtain double the product. 
+Decreases gliding Stamina consumption for your own party members by 20%.
+Not stackable with Passive Talents that provide the exact same effects. 
 {% endtab %}
 
 {% tab title="Ascension 2" %}
-### Wind Companion
+## Every Arrow Finds Its Target 
 
-Hits by Jean's Normal Attacks have a 50% chance to regenerate HP equal to 15% of Jean's ATK for all party members.
+Increases the CRIT Rate of Fiery Rain by 10% and widens its AoE by 30%.
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-### Let the Wind Lead
+## Precise Shot
 
-Using Dandelion Breeze will regenerate 20% of its Energy. 
+Aimed Shot hits on weak spots increase ATK by 15% for 10s.
 {% endtab %}
 {% endtabs %}
 
@@ -123,51 +127,85 @@ Using Dandelion Breeze will regenerate 20% of its Energy.
 
 {% tabs %}
 {% tab title="C1" %}
-### Spiraling Tempest
+## One Arrow to Rule Them All
 
-Increases the pulling speed of Gale Blade after holding for more than 1s, and increases the DMG dealt by 40%.
+Fires 2 arrows per Aimed Shot. The second arrow deals 20% of the first arrow's DMG.
+
+The second arrow is fired 10 degrees vertically below actual aiming, has separate critical, and also makes the primary shot travel further before it starts dropping down.
 {% endtab %}
 
 {% tab title="C2" %}
-### People's Aegis
+## Bunny Triggered
 
-When Jean picks up an Elemental Orb/Particle, all party members have their Movement SPD and ATK SPD increased by 15% for 15s.
-* This buff stacks but exact details are not currently tested.
+Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it.
+
+* Explosion via manual detonation deals 200% additional DMG. 
 {% endtab %}
 
 {% tab title="C3" %}
-### When the West Wind Arises 
+## It Burns!
 
-Increases the level of Dandelion Breeze by 3.
+Increases the Level of Fiery Rain by 3.
 {% endtab %}
 
 {% tab title="C4" %}
-### Lands of Dandelion
+## It's Not Just Any Doll...
 
-Within the Field created by Dandelion Breeze, all opponents have their Anemo RES decreased by 40%. 
+Decreases Explosive Puppet's CD by 20%. Adds 1 additional charge.
 {% endtab %}
 
 {% tab title="C5" %}
-### Outbursting Gust
+## It's Baron Bunny!
 
-Increases the Level of Gale Blade by 3.
+Increases the Level of Explosive Puppet by 3.
 {% endtab %}
 
 {% tab title="C6" %}
-### Lion's Fang, Fair Protector of Mondstadt 
+## Wildfire
 
-Incoming DMG is decreased by 35% within the Field created by Dandelion Breeze. Upon leaving the Dandelion Field, this effect lasts for 3 attacks or 10s.
+Fiery Rain increases the entire party's Movement SPD by 15% and ATK by 15% for 10s.
+{% endtab %}
+{% endtabs %}
+
+## Full Talent Values
+
+{% tabs %}
+{% tab title="Sharpshooter" %}
+### Normal Attacks
+
+x
+
+### Aimed Shot
+
+x
+
+### Plunge
+
+x
+{% endtab %}
+
+{% tab title="Explosive Puppet" %}
+
+x
+{% endtab %}
+
+{% tab title="Fiery Rain" %}
+
+x
+
+**Energy Cost**: 40
+
+**Duration**: 2s
+
+**Cooldown**: 20s
 {% endtab %}
 {% endtabs %}
 
 ## **External Links**
 
-* [**Honey Hunter**](https://genshin.honeyhunterworld.com/db/char/jean/)
-* [**Genshin Impact Fandom**](https://genshin-impact.fandom.com/wiki/Jean)
-* [**Jean Mains Discord**](https://discord.gg/WPX5hTnPfM)
+* [**Genshin Impact Fandom**](https://genshin-impact.fandom.com/wiki/Amber)
 
-**Tags:** [Elemental Gauge Theory](https://library.keqingmains.com/mechanics/combat/elemental-reactions/elemental-gauge-theory), [Field Buffs](https://library.keqingmains.com/mechanics/combat/field-buffs)
+
+**Tags:** [Elemental Gauge Theory](https://library.keqingmains.com/mechanics/combat/elemental-reactions/elemental-gauge-theory)
 
 **Evidence Vault:**
-
-{% page-ref page="../../evidence/characters/pyro/jean.md" %}
