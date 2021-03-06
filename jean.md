@@ -30,11 +30,11 @@ Perform up to 5 consecutive shots with a bow.
 
 | String | Talent 6% | Frames | MV/s |
 | :--- | :--- | :--- | :--- |
-| 1-hit | 52.5% | 15 | 210.0 |
-| 2-Hit | 52.5% | 33 | 190.9 |
-| 3-Hit | 67.5% | 72 | 143.7 |
-| 4-Hit | 68.75% | 113 | 128.0 |
-| 5-Hit | 86.25% | 144 | 136.4 |
+| 1-hit | 52.5% | 15 | 210.00% |
+| 2-Hit | 52.5% | 33 | 190.90% |
+| 3-Hit | 67.5% | 72 | 143.75% |
+| 4-Hit | 68.75% | 113 | 128.09% |
+| 5-Hit | 86.25% | 144 | 136.45% |
 
 **Aimed Shot**  
 Perform a precise Aimed Shot with increased DMG.  
@@ -43,17 +43,17 @@ A fully charged shot will deal Pyro DMG.
 | Type | Talent 6% | Frames | MV/s |
 | :--- | :--- | :--- | :--- |
 | Aimed Shot | 63.75% |  |  |
-| Fully Charged | 173.6% | 94 |  |
+| Fully Charged | 173.6% | 94 | 110.80% |
 | GU | 2B |  |  |
 
 **Plunge Attack**  
 Fire a shower of arrows from mid-air before falling striking the ground, dealing AoE DMG.
 
-| Type | Talent 6% | Frames | MV/s |
-| :--- | :--- | :--- | :--- |
-| Plunge DMG | 82.6% |  |  |
-| Low Plunge DMG | 165.17% |  |  |
-| High Plunge DMG | 206.3% |  |  |
+| Type | Talent 6% |
+| :--- | :--- |
+| Plunge DMG | 82.6% |
+| Low Plunge DMG | 165.17% |
+| High Plunge DMG | 206.3% |
 {% endtab %}
 
 {% tab title="Explosive Puppet" %}
