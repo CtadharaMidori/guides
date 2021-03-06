@@ -38,7 +38,7 @@ Perform up to 5 consecutive shots with a bow.
 
 **Aimed Shot**  
 Perform a precise Aimed Shot with increased DMG.  
-A fully charged shot will deal Cryo DMG.
+A fully charged shot will deal Pyro DMG.
 
 | Type | Talent 6% | Frames | MV/s |
 | :--- | :--- | :--- | :--- |
