@@ -3,102 +3,86 @@ description: >-
   Always energetic and full of life, Amber's the best - albeit only - Outrider of the Knights of Favonius.
 ---
 
-# Amber
+# Xinyan
 
-## ![](../../.gitbook/assets/element_pyro.png) Amber
+## ![](../../.gitbook/assets/element_pyro.png) Xinyan
 
-![](../../.gitbook/assets/amber.png)
+![](../../.gitbook/assets/xinyan.png)
 
 ## **Base Stats**
 
-| Lv | Base HP | Base ATK | Base DEF | Atk% |
-| :--- | :--- | :--- | :--- | :--- |
-| 60 | 6305 | 147 | 396 | 12 |
-| 60+ | 6731 | 157 | 422 | 12 |
-| 70 | 7393 | 172 | 464 | 12 |
-| 70+ | 7818 | 182 | 491 | 18 |
-| 80 | 8481 | 198 | 532 | 18 |
-| 80+ | 8907 | 208 | 559 | 24 |
-| 90 | 9570 | 223 | 601 | 24 |
+X
 
 ## **Attacks**
 
 {% tabs %}
-{% tab title="Sharpshooter" %}
+{% tab title="Dance on Fire" %}
 **Normal Attack**  
-Perform up to 5 consecutive shots with a bow.
+Perform up to 4 consecutive strikes.
 
 | String | Talent 6% | Frames | MV/s |
 | :--- | :--- | :--- | :--- |
-| 1-hit | 52.5% | 15 |  |
-| 2-Hit | 52.5% | 33 |  |
-| 3-Hit | 67.5% | 72 |  |
-| 4-Hit | 68.75% | 113 |  |
-| 5-Hit | 86.25% | 144 |  |
+| 1-hit | 111.25% |  |  |
+| 2-Hit | 107.5% |  |  |
+| 3-Hit | 138.75% |  |  |
+| 4-Hit | 168.38% |  |  |
 
-**Aimed Shot**  
-Perform a precise Aimed Shot with increased DMG.  
-A fully charged shot will deal Pyro DMG.
+**Charged Attack**  
+Xinyan consumes 40 stamina a second to keep spinning. At the end, perform a more powerful slash.
 
 | Type | Talent 6% | Frames | MV/s |
 | :--- | :--- | :--- | :--- |
-| Aimed Shot | 63.75% |  |  |
-| Fully Charged | 173.6% | 94 |  |
-| GU | 2B |  |  |
+| Spin | 90.91% |  |  |
+| Final hit | 164.38% |  |  |
 
 **Plunge Attack**  
-Fire a shower of arrows from mid-air before falling striking the ground, dealing AoE DMG.
 
 | Type | Talent 6% | Frames | MV/s |
 | :--- | :--- | :--- | :--- |
-| Plunge DMG | 82.6% |  |  |
-| Low Plunge DMG | 165.17% |  |  |
-| High Plunge DMG | 206.3% |  |  |
+| Plunge DMG | 108.41% |  |  |
+| Low Plunge DMG | 216.78% |  |  |
+| High Plunge DMG | 270.77% |  |  |
 {% endtab %}
 
-{% tab title="Explosive Puppet" %}
-Summons **Baron Bunny** that will taunt the enemy and explode after 8 seconds or being destroyed dealing AoE Pyro DMG.
+{% tab title="Sweeping Fervor" %}
+Deal AoE Pyro Damage around Xinyan and summon a shield.
 
-* The explosion has the blunt attribute that lets it damage shields and shatter frozen enemies like claymores.
-* **Baron Bunny** can be picked up by Anemo units like Jean and Sucrose when they use their elemental skills.
-* The explosion radius is smaller than the animation so take care when aiming it.
-* A percentage of Amber's HP is used to determine how much damage **Baron Bunny** can take before exploding.
-
-**Press**
-
-* Throws **Baron Bunny** infront of Amber.
-
-**Hold**
-
-* Will let you aim and choose where to throw **Baron Bunny**.
+* Shield strength scales with Xinyan’s current Def and how many targets were hit.
+* These numbers are with A2 in effect, it reduces the number of targets that needs to be hit by 1 and is effectively always online.
+* Hitting 0 opponents grants Shield Level 1: **Ad Lib**.
+* Hitting 1 opponents grants Shield Level 2: **Lead-In**.
+* Hitting 2 or more opponents grants Shield Level 3: **Rave**
+* **Rave** will also deal Pyro DMG to nearby opponents once every 2 seconds for a total of 6 hits if the shield is active for the full duration.
+* A higher level shield can be overwritten by a lower level one when using Sacrificial greatsword or casting the shield while already having one from C2 burst.
 
 | Effect | Talent 6% |
 | :--- | :--- |
-| Explosion DMG | 172.48% |
-| Inherited HP | 57.9% |
-| Duration | 8s |
-| Cooldown | 15s |
+| Skill DMG | 237.44% |
+| Rave DMG | 47.04% |
+| L1 **Ad Lib** | 145.06%Def + 793 |
+| L2 **Lead-In** | 171.36%Def + 932 |
+| L3 **Rave** | 201.6%Def + 1097 |
+| Duration | 12s |
+| Cooldown | 18s |
 | Particles | 3~4 (1:9) |
-| GU | 2B |
+| Intial hit GU | 1A |
+| Rave GU | 1A |
 {% endtab %}
 
-{% tab title="Fiery Rain" %}
+{% tab title="Riff Revolution" %}
 
-Fires off a Shower of arrows, dealing AoE Pyro DMG in a Burst.
+Xinyan Does a small AoE around her dealing Physical DMG and a larger one inflicting a Pyro DoT.
 
-* Does 18 waves total over 2 seconds in the center of the Aoe.
-* 12 of the waves cover approximately a circle half the size of the marker.
-* 4 waves cover the entire marker.
-* Each wave has a separate icd on Pyro applicaton.
+* The Pyro DoT ticks 7 times over 2 seconds. 
 
 | Effect | Talent 6% |
 | :--- | :--- |
-| Wave DMG | 39.31% |
-| Total DMG | 707.62% |
-| GU | 1A |
+| Skill DMG | 477.12% |
+| DoT DMG | 56% |
 | Duration | 2s |
-| CD | 12s |
-| Energy Cost | 40 |
+| CD | 15s |
+| Energy Cost | 60 |
+| GU | 1A |
 {% endtab %}
 {% endtabs %}
 
@@ -106,22 +90,24 @@ Fires off a Shower of arrows, dealing AoE Pyro DMG in a Burst.
 
 {% tabs %}
 {% tab title="Passive" %}
-## Gliding Champion
+## A Rad Recipe
 
-Decreases gliding Stamina consumption for your own party members by 20%.
-Not stackable with Passive Talents that provide the exact same effects. 
+When a Perfect Cooking is achieved on a DEF-boosting dish, Xinyan has a 12% chance to obtain double the product.
 {% endtab %}
 
 {% tab title="Ascension 2" %}
-## Every Arrow Finds Its Target 
+## "The Show Goes On, Even Without an Audience..." 
 
-Increases the CRIT Rate of Fiery Rain by 10% and widens its AoE by 30%.
+Decreases the number of opponents Sweeping Fervor must hit to trigger each level of shielding.
+
+* Shield Level 2: Lead-In requirement reduced to 1 opponent hit.
+* Shield Level 3: Rave requirement reduced to 2 opponents hit or more.
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-## Precise Shot
+## "...Now That's Rock 'N' Roll!"
 
-Aimed Shot hits on weak spots increase ATK by 15% for 10s.
+Characters shielded by Sweeping Fervor deal 15% increased Physical DMG. 
 {% endtab %}
 {% endtabs %}
 
@@ -129,50 +115,46 @@ Aimed Shot hits on weak spots increase ATK by 15% for 10s.
 
 {% tabs %}
 {% tab title="C1" %}
-## One Arrow to Rule Them All
+## Fatal Acceleration
 
-Fires 2 arrows per Aimed Shot. The second arrow deals 20% of the first arrow's DMG.
-
-The second arrow is fired 10 degrees vertically below actual aiming, has separate critical, and also makes the primary shot travel further before it starts dropping down.
+Upon scoring a CRIT hit, increases ATK SPD of Xinyan's Normal and Charged Attacks by 12% for 5s. Can only occur once every 5s. 
 {% endtab %}
 
 {% tab title="C2" %}
-## Bunny Triggered
+## Impromptu Opening 
 
-Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it.
-
-* Explosion via manual detonation deals 200% additional DMG. 
+Riff Revolution Physical DMG has its Crit rate increased by 100%, and will form a shield at Shield Level 3: Rave when cast. 
 {% endtab %}
 
 {% tab title="C3" %}
-## It Burns!
+## Double-Stop
 
-Increases the Level of Fiery Rain by 3.
+Increases the Level of Sweeping Fervor by 3.
 {% endtab %}
 
 {% tab title="C4" %}
-## It's Not Just Any Doll...
+## Wildfire Rhythm
 
-Decreases Explosive Puppet's CD by 20%. Adds 1 additional charge.
+Sweeping Fervor's swing DMG decreases opponent's Physical RES by 15% for 12s.
 {% endtab %}
 
 {% tab title="C5" %}
-## It's Baron Bunny!
+## Screamin' for an Encore
 
-Increases the Level of Explosive Puppet by 3.
+Increases the Level of Riff Revolution by 3.
 {% endtab %}
 
 {% tab title="C6" %}
-## Wildfire
+## Rockin' in a Flaming World
 
-Fiery Rain increases the entire party's Movement SPD by 15% and ATK by 15% for 10s.
+Decrease the Stamina Consumption of Xinyan Charged Attacks by 30%. Additionally, Xinyan's Charged Attacks gain an ATK bonus equal to 50% of her DEF.
 {% endtab %}
 {% endtabs %}
 
 ## Full Talent Values
 
 {% tabs %}
-{% tab title="Sharpshooter" %}
+{% tab title="Dance on Fire" %}
 ### Normal Attacks
 
 x
@@ -186,26 +168,28 @@ x
 x
 {% endtab %}
 
-{% tab title="Explosive Puppet" %}
+{% tab title="Sweeping Fervor" %}
 
 x
 {% endtab %}
 
-{% tab title="Fiery Rain" %}
+{% tab title="Riff Revolution" %}
 
 x
 
-**Energy Cost**: 40
+**Energy Cost**: 60
 
 **Duration**: 2s
 
-**Cooldown**: 20s
+**Cooldown**: 15s
 {% endtab %}
 {% endtabs %}
 
 ## **External Links**
 
-* [**Genshin Impact Fandom**](https://genshin-impact.fandom.com/wiki/Amber)
+* [**Genshin Impact Fandom**](https://genshin-impact.fandom.com/wiki/Xinyan)
+* [**Xinyan Mains Discord**](https://discord.gg/XQkAKTXbNQ)
+
 
 
 **Tags:** [Elemental Gauge Theory](https://library.keqingmains.com/mechanics/combat/elemental-reactions/elemental-gauge-theory)
